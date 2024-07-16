@@ -1,0 +1,37 @@
+/* src/StudentInfo.css */
+
+.student-info-container {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s;
+  }
+  
+  .student-info-container:hover {
+    background: linear-gradient(135deg, #c3cfe2 0%, #f5f7fa 100%);
+  }
+  
+  .toggle-button {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .toggle-button svg {
+    font-size: 1.5rem;
+    color: #555;
+  }
+  
+  .student-details {
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  
+  .student-details p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #333;
+  }
+  
